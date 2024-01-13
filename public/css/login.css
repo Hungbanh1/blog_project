@@ -1,0 +1,83 @@
+body {
+    background: #eaedf2;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+.bg-white {
+    background-color: white;
+}
+.login-form {
+    width: 420px;
+    margin: 0 auto 90px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    max-width: 100%;
+}
+.border-h-login {
+    margin: 0;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+.border-h-login label {
+    font-weight: 500;
+    color: #ffd400;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.login-input-item label {
+    font-size: 13px;
+}
+.login-btn .btn {
+    background: #ffd400;
+    color: #fff;
+    font-weight: 600;
+    height: 48px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.color-red {
+    color: #c1212d;
+    font-size: 12px;
+}
+.forgot-password {
+    border-bottom: 1px solid #eee;
+}
+::placeholder {
+    color: #999999 !important;
+    opacity: 1; /* Firefox */
+    font-size: 14px;
+}
+.color-blue {
+    color: #1275cd !important;
+}
+.signup-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+.fts-13 {
+    font-size: 13px;
+}
+.color-green {
+    color: #39be4f !important;
+    font-size: 12px !important;
+}
+.fts-12 {
+    font-size: 12px !important;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.eye-icon {
+    position: relative;
+}
+
+.eye-icon i {
+    position: absolute;
+    /* bottom: 20%; */
+    right: 2%;
+    bottom: 18px;
+}
+.disable-links {
+    pointer-events: none;
+}

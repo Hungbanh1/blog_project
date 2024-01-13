@@ -1,0 +1,277 @@
+#wp-content {
+    width: 1600px;
+    margin: 0px auto;
+}
+body {
+    font: 14px/18px Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.header {
+    background-color: #ffd400;
+}
+.yellow {
+    color: #ffd400;
+}
+.center-all {
+    justify-content: center;
+    align-items: center;
+}
+.algn-center {
+    align-items: center;
+}
+.main-header {
+    width: 1200px;
+    margin: 0px auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.w-800 {
+    width: 800px;
+    margin: 0px auto !important;
+    /* height: 100px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-none {
+    background: none;
+    border: none;
+    color: inherit;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+button:active {
+    outline: none !important; /* Loại bỏ đường viền focus (trong trường hợp đang được focus) */
+    border: none; /* Loại bỏ đường viền khi click */
+}
+
+/* button:hover {
+    background-color: initial; 
+    color: initial;
+    border-color: initial;
+   
+} */
+.a-none {
+    text-decoration: none !important; /* Loại bỏ gạch chân dưới */
+    color: inherit; /* Sử dụng màu chữ được kế thừa từ phần tử cha */
+}
+.btn-dangkyngay a:hover {
+    color: inherit; /* Sử dụng màu chữ được kế thừa từ phần tử cha */
+}
+.a-none:hover {
+    color: #288ad6 !important; /* Sử dụng màu chữ được kế thừa từ phần tử cha */
+    text-decoration: none !important;
+}
+.ul-list-category a:hover {
+    color: #288ad6 !important; /* Sử dụng màu chữ được kế thừa từ phần tử cha */
+    text-decoration: none !important;
+}
+.posi-rela {
+    position: relative;
+}
+.posi-ab {
+    position: absolute;
+}
+.form-input button i {
+    left: 149%;
+    top: 43%;
+    transform: translate(-149%, -36%);
+}
+.form-input input {
+    font-size: 13px;
+}
+.search-header .form-input input {
+    height: 40px;
+}
+.ul-list-category {
+    flex-direction: row !important;
+}
+.ul-list-category li {
+    margin-right: 3%;
+}
+.content {
+    width: 1200px;
+    margin: 0px auto;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    display: block;
+    padding: 3px 5px;
+    font-size: 15px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #fff;
+    border-radius: 2px;
+}
+.black {
+    color: #333;
+}
+.gray {
+    color: #999999;
+}
+.title-post {
+    margin-bottom: -13px;
+}
+.title-post p {
+    font-size: 22px;
+    font-weight: 700;
+}
+.post-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 15px 0px;
+    padding-left: 0px !important;
+    margin-right: 0; /* Đặt giá trị margin-right thành 0 */
+}
+.desc-img {
+    color: #999;
+    font-style: italic;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.hot-title h6 {
+    display: block;
+    overflow: hidden;
+    /* line-height: 26px;
+    font-size: 18px; */
+    color: #888;
+    text-transform: uppercase;
+
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 600;
+}
+.hot-list a {
+    overflow: visible;
+    background: #0078d7;
+    float: left;
+    position: relative;
+    color: #fff;
+    font-size: 10px;
+    margin: 2px 5px 7px 12px;
+    padding: 0 15px 0 12px;
+    height: 24px;
+    line-height: 24px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    text-decoration: none !important; /* Loại bỏ gạch chân dưới */
+}
+.hot-list a:before {
+    content: "";
+    float: left;
+    position: absolute;
+    top: 0;
+    left: -12px;
+    width: 0;
+    height: 0;
+    border-color: transparent #0078d7 transparent transparent;
+    border-style: solid;
+    border-width: 12px 12px 12px 0;
+}
+.ul-list-category li a {
+    display: block;
+    padding: 3px 5px;
+    font-size: 15px;
+    font: 14px/18px Arial, Helvetica, sans-serif;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 400;
+    background: #fff;
+    border-radius: 2px;
+}
+.btn-dangkyngay {
+    margin: auto;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    line-height: 20.8px;
+    background: #ff920c;
+    line-height: 2;
+    border-radius: 4px;
+}
+
+.btn-dangkyngay a {
+    color: #ffff00;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.disable-links {
+    pointer-events: none;
+}
+.main-content-post img {
+    width: 100% !important;
+    height: 100% !important;
+    text-align: center !important;
+}
+
+p img {
+    text-align: center !important;
+}
+
+.main-content-post p {
+    text-align: left !important;
+}
+
+.main-content-post p img {
+    width: 500px;
+    margin: 10px auto !important;
+    /* display: flex;
+                                        justify-content: space-between;
+                                        align-items: center; */
+    /* margin: 10px 0px !important; */
+}
+
+.main-content-post ul {
+    text-align: left;
+}
+/* //account */
+.content-regis {
+    height: 600px;
+    width: 700px;
+    margin: 0px auto;
+    padding-top: 1%;
+}
+
+.title-widget-services {
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #e31837;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.input-regis {
+    height: 52px !important;
+    border-radius: 8px;
+    border: 1px solid #9e9e9e;
+}
+
+.bg-red {
+    background: #e31837;
+    border: 1px solid #e31837;
+    color: #fff !important;
+}
+
+.btn-orange {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    border: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    box-shadow: none;
+    font-weight: 700;
+    border-radius: 5px;
+    line-height: 1.6rem;
+    margin-top: 13px;
+    cursor: pointer;
+}
